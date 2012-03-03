@@ -1,0 +1,6 @@
+error checking, error checking testing.
+coercion errors? NSNull/nil errors? argument checking? 
+(esp. +[NSAppleEventDescriptor registerConversionHandler:selector:forDescriptorTypes])
+
+other conversions:
+FSRef, NSDecimal

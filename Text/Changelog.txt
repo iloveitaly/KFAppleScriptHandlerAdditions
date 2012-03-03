@@ -1,0 +1,28 @@
+2.3, 12/31/2004
+
+    - Fixed a memory leak. (Thanks to Wade Cosgrove)
+
+2.2, 11/27/2004
+
+    - Fixed a bug that preventing error reporting in old-style methods.  (Reported by Michael Keller)
+    
+    - Corrected and updated ReadMe.txt
+
+2.1, 7/26/2004
+
+    - Introduced  -[NSAppleScript executeHandler:withParameters:] and related methods.  New execute 
+      methods throw exceptions instead of filling out error dictionaries.  Old methods will hang around
+      for compatibility.
+      
+    - Fixed a bug in +[NSNumber kfNumberWithSignedIntP:(void *)int_p byteCount:(int)bytes] and 
+      similar. I don't think it was possible to trigger the bug on any existing system.
+      
+    - Added translation between NSNull and descriptor of type typeNull.
+    
+    - Changed docs to reflect that -[NSAppleScript executeHandler:withParameters:] and friends can
+      use commands defined in scripting additions.  I was wrong before.
+      
+
+2.0, 4/27/2004
+    
+    - Changelog baseline.

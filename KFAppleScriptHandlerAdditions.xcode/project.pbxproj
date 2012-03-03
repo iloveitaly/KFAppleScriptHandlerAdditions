@@ -1,0 +1,986 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		080E96DDFE201D6D7F000001 = {
+			children = (
+				BE5AB2FF0629F26500A33197,
+				BE5AB3000629F26500A33197,
+			);
+			isa = PBXGroup;
+			name = Classes;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C165CFE840E0CC02AAC07 = {
+			children = (
+				089C165DFE840E0CC02AAC07,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C165DFE840E0CC02AAC07 = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
+			name = English;
+			path = English.lproj/InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//080
+//081
+//082
+//083
+//084
+//100
+//101
+//102
+//103
+//104
+		1058C7A0FEA54F0111CA2CBB = {
+			children = (
+				1058C7A1FEA54F0111CA2CBB,
+			);
+			isa = PBXGroup;
+			name = "Linked Frameworks";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1058C7A1FEA54F0111CA2CBB = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Cocoa.framework;
+			path = /System/Library/Frameworks/Cocoa.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		1058C7A2FEA54F0111CA2CBB = {
+			children = (
+				29B97325FDCFA39411CA2CEA,
+				29B97324FDCFA39411CA2CEA,
+			);
+			isa = PBXGroup;
+			name = "Other Frameworks";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//100
+//101
+//102
+//103
+//104
+//190
+//191
+//192
+//193
+//194
+		19C28FACFE9D520D11CA2CBB = {
+			children = (
+				BEE80AD9063E640A0013DC11,
+				BEE80ADB063E640A0013DC11,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//190
+//191
+//192
+//193
+//194
+//290
+//291
+//292
+//293
+//294
+		29B97313FDCFA39411CA2CEA = {
+			buildSettings = {
+			};
+			buildStyles = (
+				4A9504CCFFE6A4B311CA0CBA,
+				4A9504CDFFE6A4B311CA0CBA,
+				E9AD241B056E4CBD00C89394,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 29B97314FDCFA39411CA2CEA;
+			projectDirPath = "";
+			targets = (
+				BEE809D3063E508D0013DC11,
+				8D1107260486CEB800E47090,
+			);
+		};
+		29B97314FDCFA39411CA2CEA = {
+			children = (
+				BE5AB3100629F3A200A33197,
+				BE6A6B9D063E4965007E93F2,
+				BE5AB3160629F3B600A33197,
+				BE6A6BA0063E49A4007E93F2,
+				BEB3703E06B474B600ECF0F2,
+				29B97323FDCFA39411CA2CEA,
+				19C28FACFE9D520D11CA2CBB,
+			);
+			isa = PBXGroup;
+			name = KFAppleScriptHandlerAdditionsDemo;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		29B97316FDCFA39411CA2CEA = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = main.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA = {
+			children = (
+				8D1107310486CEB800E47090,
+				089C165CFE840E0CC02AAC07,
+				29B97318FDCFA39411CA2CEA,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA = {
+			children = (
+				29B97319FDCFA39411CA2CEA,
+			);
+			isa = PBXVariantGroup;
+			name = MainMenu.nib;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		29B97319FDCFA39411CA2CEA = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			name = English;
+			path = English.lproj/MainMenu.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA = {
+			children = (
+				1058C7A0FEA54F0111CA2CBB,
+				1058C7A2FEA54F0111CA2CBB,
+			);
+			isa = PBXGroup;
+			name = Frameworks;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		29B97324FDCFA39411CA2CEA = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = AppKit.framework;
+			path = /System/Library/Frameworks/AppKit.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		29B97325FDCFA39411CA2CEA = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Foundation.framework;
+			path = /System/Library/Frameworks/Foundation.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+//290
+//291
+//292
+//293
+//294
+//4A0
+//4A1
+//4A2
+//4A3
+//4A4
+		4A9504CCFFE6A4B311CA0CBA = {
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OPTIMIZATION_CFLAGS = "-O0";
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		4A9504CDFFE6A4B311CA0CBA = {
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//4A0
+//4A1
+//4A2
+//4A3
+//4A4
+//8D0
+//8D1
+//8D2
+//8D3
+//8D4
+		8D1107260486CEB800E47090 = {
+			buildPhases = (
+				8D1107270486CEB800E47090,
+				8D1107290486CEB800E47090,
+				8D11072C0486CEB800E47090,
+				8D11072E0486CEB800E47090,
+				E9AD2448056E4CFF00C89394,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/Frameworks";
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Testing/TestVersion-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-fobjc-exceptions";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "KFAppleScriptHandlerAdditions-Testing";
+				SECTORDER_FLAGS = "";
+				TEST_AFTER_BUILD = YES;
+				WARNING_CFLAGS = "-Wall -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = Testing;
+			productInstallPath = "$(HOME)/Applications";
+			productName = KFAppleScriptHandlerAdditionsDemo;
+			productReference = BEE80AD9063E640A0013DC11;
+			productType = "com.apple.product-type.application";
+		};
+		8D1107270486CEB800E47090 = {
+			buildActionMask = 2147483647;
+			files = (
+				BE5AB3030629F26500A33197,
+				BE5AB3050629F26500A33197,
+				BE5AB31B0629FA6E00A33197,
+				BEB3703306B4741900ECF0F2,
+				BEB3703A06B474A300ECF0F2,
+				BE92EE870759392B003ACB5C,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1107290486CEB800E47090 = {
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090,
+				BEE80A63063E552D0013DC11,
+				BEB3702806B4737900ECF0F2,
+				BEB3703406B4742200ECF0F2,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072B0486CEB800E47090 = {
+			fileRef = 089C165CFE840E0CC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8D11072C0486CEB800E47090 = {
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090,
+				BE5AB3040629F26500A33197,
+				BE5AB3060629F26500A33197,
+				BE5AB31C0629FA6E00A33197,
+				BEB3703206B4741700ECF0F2,
+				BEB3703B06B474A300ECF0F2,
+				BE92EE880759392B003ACB5C,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072D0486CEB800E47090 = {
+			fileRef = 29B97316FDCFA39411CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		8D11072E0486CEB800E47090 = {
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090,
+				BEB3704806B4796100ECF0F2,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072F0486CEB800E47090 = {
+			fileRef = 1058C7A1FEA54F0111CA2CBB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8D1107310486CEB800E47090 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist;
+			path = Info.plist;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//8D0
+//8D1
+//8D2
+//8D3
+//8D4
+//BE0
+//BE1
+//BE2
+//BE3
+//BE4
+		BE5AB2FB0629F26500A33197 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = KFAppleScriptHandlerAdditionsCore.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BE5AB2FC0629F26500A33197 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = KFAppleScriptHandlerAdditionsCore.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BE5AB2FD0629F26500A33197 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = "KFASHandlerAdditions-TypeTranslation.h";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BE5AB2FE0629F26500A33197 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = "KFASHandlerAdditions-TypeTranslation.m";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BE5AB2FF0629F26500A33197 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MyWindowController.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BE5AB3000629F26500A33197 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MyWindowController.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BE5AB3010629F26500A33197 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = TODO.txt;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BE5AB3030629F26500A33197 = {
+			fileRef = BE5AB2FB0629F26500A33197;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BE5AB3040629F26500A33197 = {
+			fileRef = BE5AB2FC0629F26500A33197;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BE5AB3050629F26500A33197 = {
+			fileRef = BE5AB2FD0629F26500A33197;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BE5AB3060629F26500A33197 = {
+			fileRef = BE5AB2FE0629F26500A33197;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BE5AB3100629F3A200A33197 = {
+			children = (
+				BEE80AAB063E5C6C0013DC11,
+				BEB372FA06B485AB00ECF0F2,
+				BE5AB3010629F26500A33197,
+			);
+			isa = PBXGroup;
+			path = Text;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BE5AB3130629F3AD00A33197 = {
+			children = (
+				BEE80A1E063E52680013DC11,
+			);
+			isa = PBXGroup;
+			name = Scripts;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BE5AB3160629F3B600A33197 = {
+			children = (
+				BEB3702706B4737900ECF0F2,
+				BEB3703806B474A300ECF0F2,
+				BEB3703906B474A300ECF0F2,
+				BE5AB3190629FA6E00A33197,
+				BE5AB31A0629FA6E00A33197,
+				BE92EE850759392B003ACB5C,
+				BE92EE860759392B003ACB5C,
+				BEB3704706B4796100ECF0F2,
+			);
+			isa = PBXGroup;
+			path = Testing;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BE5AB3190629FA6E00A33197 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = ASObjCTranslationTest.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BE5AB31A0629FA6E00A33197 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = ASObjCTranslationTest.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BE5AB31B0629FA6E00A33197 = {
+			fileRef = BE5AB3190629FA6E00A33197;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BE5AB31C0629FA6E00A33197 = {
+			fileRef = BE5AB31A0629FA6E00A33197;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BE636EBC06AF632F00B0EB66 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = KFAppleScript.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BE636EBD06AF632F00B0EB66 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = KFAppleScript.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BE6A6B9D063E4965007E93F2 = {
+			children = (
+				BE5AB2FB0629F26500A33197,
+				BE5AB2FC0629F26500A33197,
+				BE5AB2FD0629F26500A33197,
+				BE5AB2FE0629F26500A33197,
+			);
+			isa = PBXGroup;
+			name = KFAppleScriptHandlerAdditions;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BE6A6BA0063E49A4007E93F2 = {
+			children = (
+				080E96DDFE201D6D7F000001,
+				BE5AB3130629F3AD00A33197,
+				29B97317FDCFA39411CA2CEA,
+				BEB71B4B06B4DF3600789125,
+			);
+			isa = PBXGroup;
+			path = "Demo App";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BE92EE850759392B003ACB5C = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = ReadMeExamplesTest.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BE92EE860759392B003ACB5C = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = ReadMeExamplesTest.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BE92EE870759392B003ACB5C = {
+			fileRef = BE92EE850759392B003ACB5C;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BE92EE880759392B003ACB5C = {
+			fileRef = BE92EE860759392B003ACB5C;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BEB3702706B4737900ECF0F2 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			path = "TestVersion-Info.plist";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BEB3702806B4737900ECF0F2 = {
+			fileRef = BEB3702706B4737900ECF0F2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BEB3703206B4741700ECF0F2 = {
+			fileRef = BE5AB3000629F26500A33197;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BEB3703306B4741900ECF0F2 = {
+			fileRef = BE5AB2FF0629F26500A33197;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BEB3703406B4742200ECF0F2 = {
+			fileRef = BEE80A1E063E52680013DC11;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BEB3703806B474A300ECF0F2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = CoreTest.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BEB3703906B474A300ECF0F2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = CoreTest.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BEB3703A06B474A300ECF0F2 = {
+			fileRef = BEB3703806B474A300ECF0F2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BEB3703B06B474A300ECF0F2 = {
+			fileRef = BEB3703906B474A300ECF0F2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BEB3703E06B474B600ECF0F2 = {
+			children = (
+				BEB71B5B06B4E14F00789125,
+				BEBBABF806B1ED62003FF891,
+				BE636EBC06AF632F00B0EB66,
+				BE636EBD06AF632F00B0EB66,
+				BEBBABFC06B21BF1003FF891,
+				BEBBABFD06B21BF1003FF891,
+				BEBBAC5506B238F2003FF891,
+			);
+			isa = PBXGroup;
+			path = Beta;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BEB3704706B4796100ECF0F2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = SenTestingKit.framework;
+			path = /Library/Frameworks/SenTestingKit.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		BEB3704806B4796100ECF0F2 = {
+			fileRef = BEB3704706B4796100ECF0F2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BEB372FA06B485AB00ECF0F2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = Changelog.txt;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BEB71B4B06B4DF3600789125 = {
+			children = (
+				29B97316FDCFA39411CA2CEA,
+			);
+			isa = PBXGroup;
+			name = "Other Sources";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BEB71B5B06B4E14F00789125 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = BetaReadMe.txt;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BEBBABF806B1ED62003FF891 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = DumpOfRelatedClasses.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BEBBABFC06B21BF1003FF891 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = KFAppleScriptTest.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BEBBABFD06B21BF1003FF891 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = KFAppleScriptTest.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BEBBAC5506B238F2003FF891 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Carbon.framework;
+			path = /System/Library/Frameworks/Carbon.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		BEE809CE063E508D0013DC11 = {
+			buildActionMask = 2147483647;
+			files = (
+				BEE809E1063E51100013DC11,
+				BEE809E8063E51200013DC11,
+				BEE809EA063E51230013DC11,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE809CF063E508D0013DC11 = {
+			buildActionMask = 2147483647;
+			files = (
+				BEE809E0063E51100013DC11,
+				BEE809E2063E51120013DC11,
+				BEE809E9063E51220013DC11,
+				BEE80A1F063E52680013DC11,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE809D0063E508D0013DC11 = {
+			buildActionMask = 2147483647;
+			files = (
+				BEE809E3063E51140013DC11,
+				BEE809E4063E51150013DC11,
+				BEE809E6063E511D0013DC11,
+				BEE809E7063E511E0013DC11,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE809D1063E508D0013DC11 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE809D2063E508D0013DC11 = {
+			buildActionMask = 2147483647;
+			files = (
+				BEE809E5063E51160013DC11,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE809D3063E508D0013DC11 = {
+			buildPhases = (
+				BEE809CE063E508D0013DC11,
+				BEE809CF063E508D0013DC11,
+				BEE809D0063E508D0013DC11,
+				BEE809D1063E508D0013DC11,
+				BEE809D2063E508D0013DC11,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INFOPLIST_FILE = "Demo App/Info.plist";
+				INSTALL_PATH = "$(USER_APPS_DIR)";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = KFAppleScriptHandlerAdditionsDemo;
+				REZ_EXECUTABLE = NO;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = KFAppleScriptHandlerAdditionsDemo;
+			productName = KFAppleScriptHandlerAdditionsDemo;
+			productReference = BEE80ADB063E640A0013DC11;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>KFAppleScriptHandlerAdditionsDemo</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.MySoftwareCompany.KFAppleScriptHandlerAdditionsDemo</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0d1</string>
+</dict>
+</plist>
+";
+			productType = "com.apple.product-type.application";
+		};
+		BEE809E0063E51100013DC11 = {
+			fileRef = 29B97318FDCFA39411CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BEE809E1063E51100013DC11 = {
+			fileRef = BE5AB2FD0629F26500A33197;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BEE809E2063E51120013DC11 = {
+			fileRef = 089C165CFE840E0CC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BEE809E3063E51140013DC11 = {
+			fileRef = BE5AB2FC0629F26500A33197;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BEE809E4063E51150013DC11 = {
+			fileRef = 29B97316FDCFA39411CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BEE809E5063E51160013DC11 = {
+			fileRef = 1058C7A1FEA54F0111CA2CBB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BEE809E6063E511D0013DC11 = {
+			fileRef = BE5AB3000629F26500A33197;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BEE809E7063E511E0013DC11 = {
+			fileRef = BE5AB2FE0629F26500A33197;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BEE809E8063E51200013DC11 = {
+			fileRef = BE5AB2FB0629F26500A33197;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BEE809E9063E51220013DC11 = {
+			fileRef = 8D1107310486CEB800E47090;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BEE809EA063E51230013DC11 = {
+			fileRef = BE5AB2FF0629F26500A33197;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BEE80A1E063E52680013DC11 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.scpt;
+			path = iTunesController.scpt;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BEE80A1F063E52680013DC11 = {
+			fileRef = BEE80A1E063E52680013DC11;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BEE80A63063E552D0013DC11 = {
+			fileRef = 29B97318FDCFA39411CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BEE80AAB063E5C6C0013DC11 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = ReadMe.txt;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		BEE80AD9063E640A0013DC11 = {
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = "KFAppleScriptHandlerAdditions-Testing.app";
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BEE80ADB063E640A0013DC11 = {
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = KFAppleScriptHandlerAdditionsDemo.app;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+//BE0
+//BE1
+//BE2
+//BE3
+//BE4
+//E90
+//E91
+//E92
+//E93
+//E94
+		E9AD241B056E4CBD00C89394 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OPTIMIZATION_CFLAGS = "-O0";
+				TEST_AFTER_BUILD = YES;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Test;
+		};
+		E9AD2448056E4CFF00C89394 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "~/Developer/Tools/RunTargetUnitTests";
+		};
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA;
+}
